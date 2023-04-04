@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "projectManager.checkInvalidPathsBeforeListing": false,
+        "projectManager.git.baseFolders": [
+            "/media/mikea/86022EF5022EE9BF/web/repos/github.io"
+        ],
+        "projectManager.vscode.baseFolders": [
+            "/media/mikea/86022EF5022EE9BF/web/repos/github.io"
+        ],
+    }
+}
