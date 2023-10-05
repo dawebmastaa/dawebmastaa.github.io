@@ -1,8 +1,15 @@
 ---
+import Meta from '../components/Meta.astro';
 import Layout from '../layouts/Layout.astro';
 ---
+<Meta
+    title="This Is The Homepage Title"
+    description="Homepage description",
+    robots="index, follow",
+    sitename={Astro.props.sitename}>
+</Meta>
 
-<Layout title="Rule The Web">
+<Layout>
 
     <!-- Start block -->
     <section class="bg-white dark:bg-gray-900">
