@@ -8,6 +8,6 @@ export default defineConfig({
   integrations: [tailwind()],
 
   build: {
-    assets: '_compiled'
+    assets: 'compiled'
   }
 });
