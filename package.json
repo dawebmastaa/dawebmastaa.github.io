@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "astro",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev --site http://localhost:4321",
     "start": "astro dev --site http://localhost:4321",
-    "build": "astro build",
+    "build": "astro build --site https://dawebmastaa.github.io",
     "preview": "astro preview",
     "astro": "astro"
   },
