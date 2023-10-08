@@ -9,6 +9,5 @@ export default defineConfig({
 
   build: {
     assets: 'compiled',
-    format: 'file'
   }
 });
