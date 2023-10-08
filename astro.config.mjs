@@ -5,5 +5,9 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   outDir: './docs',
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+
+  build: {
+    assets: '_compiled'
+  }
 });
