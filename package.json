@@ -3,15 +3,16 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev --site http://localhost:4321",
-    "start": "astro dev --site http://localhost:4321",
-    "build": "astro build --site https://dawebmastaa.github.io",
+    "dev": "astro dev --site http://localhost:4321/",
+    "start": "astro dev --site http://localhost:4321/",
+    "build": "astro build --site https://dawebmastaa.github.io/",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^5.0.1",
-    "astro": "^3.0.12",
+    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/tailwind": "^5.0.3",
+    "astro": "^4.0.5",
     "flowbite": "^1.8.1",
     "tailwindcss": "^3.3.3"
   }
