@@ -12,5 +12,7 @@
         "projectManager.vscode.baseFolders": [
             "/media/mikea/86022EF5022EE9BF/web/repos/github.io"
         ],
+        "editor.fontFamily": "'Jetbrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+        "editor.fontSize": 13,
     }
 }
