@@ -7,12 +7,69 @@
     "settings": {
         "projectManager.checkInvalidPathsBeforeListing": false,
         "projectManager.git.baseFolders": [
-            "/media/mikea/86022EF5022EE9BF/web/repos/github.io"
+            "/media/mikea/86022EF5022EE9BF/web/repos"
         ],
         "projectManager.vscode.baseFolders": [
-            "/media/mikea/86022EF5022EE9BF/web/repos/github.io"
+            "/media/mikea/86022EF5022EE9BF/web/repos"
         ],
         "editor.fontFamily": "'Jetbrains Mono', 'Droid Sans Mono', 'monospace', monospace",
-        "editor.fontSize": 13,
+        "editor.fontSize": 14,
+        "sqltools.connections": [
+            {
+                "mysqlOptions": {
+                    "authProtocol": "default",
+                    "enableSsl": "Disabled"
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "port": 3306,
+                "driver": "MySQL",
+                "name": "Local MySQL",
+                "username": "root",
+                "database": "sulu",
+                "password": ""
+            },
+            {
+                "previewLimit": 50,
+                "driver": "SQLite",
+                "name": "Local SQLite",
+                "database": "/media/mikea/86022EF5022EE9BF/web/repos/PHP_Shell_Template/conf/shell.sqlite"
+            },
+            {
+                "pgOptions": {
+                    "ssl": true
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "driver": "PostgreSQL",
+                "name": "CockroachDB",
+                "connectString": "postgresql://mike:UCsrhexI56ZO5tt83YDd4w@veiled-carp-6920.g8z.gcp-us-east1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"
+            },
+            {
+                "pgOptions": {
+                    "ssl": true
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "driver": "CockroachDB",
+                "connectString": "postgresql://mike:UCsrhexI56ZO5tt83YDd4w@veiled-carp-6920.g8z.gcp-us-east1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full",
+                "name": "CockroachDB Cloud"
+            },
+            {
+                "mysqlOptions": {
+                    "authProtocol": "default",
+                    "enableSsl": "Enabled",
+                    "ssl": {}
+                },
+                "previewLimit": 50,
+                "server": "aws.connect.psdb.cloud",
+                "port": 3306,
+                "driver": "MySQL",
+                "name": "PlanetScale MySQL",
+                "username": "c5hdlxvex99gltvpboip",
+                "database": "shell",
+                "password": "pscale_pw_n6logaBPZKpQ0VPka1eSB25140OFsaUlLX9PioJibys"
+            }
+        ],
     }
 }

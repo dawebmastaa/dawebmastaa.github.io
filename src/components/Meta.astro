@@ -1,30 +1,13 @@
 ---
-interface Props {
-	title: string;
-    description: string;
-    sitename: string;
-    robots: string;
-}
-
-const { title, description, robots } = Astro.props;
+const { title, description, keywords, robots } = Astro.props;
 const { sitename = "Rule The Web - Change Your World" } = Astro.props;
 ---
-
-<!DOCTYPE html>
- <html lang="en">
- <head>
-    <base href={import.meta.env.SITE}>
-    <link rel="canonical" href={Astro.request.url}>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="/img/logo.svg">
-	<meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 
     <!-- Meta SEO -->
     <meta name="title" content={title}>
     <meta name="description" content={description}>
+    <meta name="keywords" content={keywords}>
     <meta name="robots" content={robots}>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -36,7 +19,7 @@ const { sitename = "Rule The Web - Change Your World" } = Astro.props;
     <meta property="og:url" content="">
     <meta property="og:description" content={description}>
     <meta property="og:type" content="">
-    <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png">
+    <meta property="og:image" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
@@ -50,65 +33,4 @@ const { sitename = "Rule The Web - Change Your World" } = Astro.props;
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-    <script>
-        try {
-          if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark')
-            document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0B1120')
-          } else {
-            document.documentElement.classList.remove('dark')
-          }
-        } catch (_) {}
-    </script>
-    <script>
-        var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
-        var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
-        
-        // Change the icons inside the button based on previous settings
-        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches))
-        {
-            themeToggleLightIcon.classList.remove('hidden');
-        }
-        else
-        {
-            themeToggleDarkIcon.classList.remove('hidden');
-        }
-        
-        var themeToggleBtn = document.getElementById('theme-toggle');
-        
-        themeToggleBtn.addEventListener('click', function() {
-            // toggle icons inside button
-            themeToggleDarkIcon.classList.toggle('hidden');
-            themeToggleLightIcon.classList.toggle('hidden');
-            
-            // if set via local storage previously
-            if (localStorage.getItem('color-theme')) {
-                if (localStorage.getItem('color-theme') === 'light') {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('color-theme', 'dark');
-                }
-                else {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                }
-                // if NOT set via local storage previously
-            }
-            else {
-                if (document.documentElement.classList.contains('dark')) {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                }
-                else {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('color-theme', 'dark');
-                }
-            }
-        });
-    </script>
-
-<script type="text/javascript">
-//chat script from Crisp
-window.$crisp=[];window.CRISP_WEBSITE_ID="3633cb81-a6ff-4196-ae9e-bdf36a8046ce";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
-</script>
 </head>
