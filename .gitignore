@@ -19,5 +19,6 @@ pnpm-debug.log*
 .env.production
 
 #VSCode config
-github.io.code-workspace
 public/icons/
+.vscode/
+github.io.code-workspace
