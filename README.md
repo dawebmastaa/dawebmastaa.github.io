@@ -35,7 +35,11 @@ All things modern web. Distilling the noise to find the tools to more easily cre
 </a>
 <h4>Tools</h4>
   <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=nginx,nodejs,sqlite,mysql,postgres,mongodb,figma," />
+<img src="https://skillicons.dev/icons?i=nginx,nodejs,sqlite,mysql,postgres,mongodb,figma&theme=dark" />
+</a>
+<h4>Databases</h4>
+  <a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase&theme=dark" />
 </a></p>
 
 <!--
