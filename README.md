@@ -31,20 +31,20 @@ All things modern web. Distilling the noise to find the tools to more easily cre
 </a>
 <h4>Frameworks and Libraries</h4>
   <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=bootstrap,tailwind,sass,less,alpinejs,htmx,lit,pinia,react,nextjs,svelte,solidjs,redux,nuxtjs,nestjs,express,ember,electron&theme=dark" />
+<img src="https://skillicons.dev/icons?i=alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,muxtjs,pinia,react,redux,sass,solidjs,svelte,tailwind,vue,vuetify,&theme=dark" />
 </a>
 <h4>Tools</h4>
   <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=alpinejs,astro,bitbucket,bootstrap,bun,cloudflare,figma,git,github,gitlab,npm&theme=dark" />
+<img src="https://skillicons.dev/icons?i=alpinejs,astro,bitbucket,bootstrap,bun,cloudflare,figma,git,github,gitlab,npm,pnpm,vite,vitest,&theme=dark" />
 </a></p>
 
 <p align="center"><h3>Back End</h3>
   <h4>Languages</h4>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=php,py,perl,js&theme=dark" /></a>
   <h4>Frameworks and Libraries</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=bootstrap,tailwind,sass,less,alpinejs,htmx,react,nextjs,svelte,solidjs,redux,nuxtjs,nestjs,express,ember,electron&theme=dark" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=django,flask,htmx,laravel,nestjs,nuxtjs,remix,symfony,&theme=dark" /></a>
   <h4>Tools</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nginx,nodejs,prisma,redis&theme=dark" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nginx,nodejs,prisma,redis,&theme=dark" /></a>
   <h4>Databases</h4>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase,firebase&theme=dark" /></a>
 </p>
