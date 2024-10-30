@@ -36,10 +36,6 @@ All things modern web. Distilling the noise to find the tools to more easily cre
 <h4>Tools</h4>
   <a href="https://skillicons.dev">
 <img src="https://skillicons.dev/icons?i=alpinejs,astro,bitbucket,bootstrap,bun,cloudflare,figma,git,github,gitlab,npm&theme=dark" />
-</a>
-<h4>Databases</h4>
-  <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase,firebase,notion&theme=dark" />
 </a></p>
 
 <p align="center"><h3>Back End</h3>
