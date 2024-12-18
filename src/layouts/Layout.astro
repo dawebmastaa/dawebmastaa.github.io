@@ -6,30 +6,29 @@ import Footer from '../components/Footer.astro';
 
 interface Props {
 	title: string;
-    description: string;
-    keywords: string;
-    robots: string;
+   description: string;
+   robots: string;
 }
 
-const { title, description, keywords, robots } = Astro.props;
+const { title, description, robots } = Astro.props;
 ---
 <!DOCTYPE html>
  <html lang="en">
  <head>
-    <base href={import.meta.env.SITE}>
-    <link rel="canonical" href={Astro.request.url}>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="/img/logo.svg">
+    <base href={import.meta.env.SITE} />
+    <link rel="canonical" href={Astro.request.url} />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="/img/logo.svg" />
 	<meta name="generator" content={Astro.generator} />
 <Meta
 	title={title}
-    description={description}
-	keywords={keywords}
-    robots={robots}
+	description={description}
+	robots={robots}
 	/>	
 
+	</head>
 	<body class="bg-white dark:bg-gray-900">
 		<Header />
 		<slot />

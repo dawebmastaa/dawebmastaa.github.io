@@ -22,3 +22,4 @@ pnpm-debug.log*
 public/icons/
 .vscode/
 github.io.code-workspace
+node_modules
