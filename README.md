@@ -15,7 +15,7 @@ All things modern web. Distilling the noise to find the tools to more easily cre
 
   <h4>Frameworks and Libraries</h4>
   <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=astro,alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,muxtjs,pinia,react,redux,sass,solidjs,svelte,tailwind,vue" />
+  <img src="https://skillicons.dev/icons?i=astro,alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,nuxtjs,pinia,react,redux,sass,svelte,tailwind,vue" />
   </a>
 
   <h4>Tools</h4>
