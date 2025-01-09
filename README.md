@@ -1,10 +1,10 @@
-# 💫 About Me:
+# 💫 About Me
 All things modern web. Distilling the noise to find the tools to more easily create great web projects.
 
 I am NOT a developer. I am a consultant and problem solver for small business owners and solopreneurs, that just happens to have over 25 years experience writing code.
 
 
-## 💻 Tech Stack:
+## 💻 Tech Stack
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
@@ -63,7 +63,7 @@ I am NOT a developer. I am a consultant and problem solver for small business ow
 
 </p>
 
-# 📊GitHub Stats :
+## 📊 GitHub Stats :
 ![](https://github-readme-stats.vercel.app/api?username=Dawebmastaa&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Dawebmastaa&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Dawebmastaa&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
@@ -121,7 +121,8 @@ Infrastructure:
 ![PythonAnywhere](https://img.shields.io/badge/pythonanywhere-%232F9FD7.svg?style=plastic&logo=pythonanywhere&logoColor=151515) 
 ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) 
-![Vultr](https://img.shields.io/badge/Vultr-007BFC.svg?style=plastic&logo=vultr) 
+![Vultr](https://img.shields.io/badge/Vultr-007BFC.svg?style=plastic&logo=vultr)
+ 
 ![AdonisJS](https://img.shields.io/badge/adonisjs-%23220052.svg?style=plastic&logo=adonisjs&logoColor=white) 
 ![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=plastic&logo=alpinedotjs&logoColor=%238BC0D0) 
 ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=plastic&logo=astro&logoColor=white) 
