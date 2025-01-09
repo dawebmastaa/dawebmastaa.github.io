@@ -2,46 +2,80 @@
 All things modern web. Distilling the noise to find the tools to more easily create great web projects.
 
 
-# 💻 Tech Stack:
+## 💻 Tech Stack:
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-<p align="center"><h3>Front End</h3>
+<p>
+  <h3>Front End</h3>
   <h4>Languages</h4>
   <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,md&theme=dark" />
-</a>
-<h4>Frameworks and Libraries</h4>
-  <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,muxtjs,pinia,react,redux,sass,solidjs,svelte,tailwind,vue,vuetify,&theme=dark" />
-</a>
-<h4>Tools</h4>
-  <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=alpinejs,astro,bitbucket,bootstrap,bun,cloudflare,figma,git,github,gitlab,npm,pnpm,vite,vitest,&theme=dark" />
-</a></p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,md" />
+  </a>
 
-<p align="center"><h3>Back End</h3>
-  <h4>Languages</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=php,py,perl,js&theme=dark" /></a>
   <h4>Frameworks and Libraries</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=django,flask,htmx,laravel,nestjs,nuxtjs,remix,symfony,&theme=dark" /></a>
+  <a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=astro,alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,muxtjs,pinia,react,redux,sass,solidjs,svelte,tailwind,vue" />
+  </a>
+
   <h4>Tools</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nginx,nodejs,prisma,redis,&theme=dark" /></a>
+  <a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=bitbucket,cloudflare,figma,git,github,gitlab,nodejs,npm,pnpm,vite" />
+  </a>
+</p>
+
+<p>
+  <h3>Back End</h3>
+  <h4>Languages</h4>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=php,py,perl,js,ts,graphql,sql," /></a>
+
+  <h4>Frameworks and Libraries</h4>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=django,flask,laravel,nestjs,nuxtjs,remix,symfony" /></a>
+
+  <h4>Tools</h4>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=bun,deno,nginx,nodejs,prisma" /></a>
+
   <h4>Databases</h4>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase,firebase&theme=dark" /></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase,firebase,planetscale,redis," /></a>
+</p>
+
+<p>
+  <h3>Deployment</h3>
+  <h4>Tools</h4>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=aws,azure,cloudflare,docker,heroku,vercel,netlify," /></a>
 </p>
 
 
 <!---
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
+FrontEnd:
+
+Languages:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=plastic&logo=markdown&logoColor=white) 
-![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=plastic&logo=perl&logoColor=white) 
+
+Frameworks:
+
+Tools:
+
+Backend
+
+Languages:
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white) 
+![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=plastic&logo=perl&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) 
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) 
+
+Frameworks:
+
+Tools:
+
+Data:
+
+Infrastructure:
+
 ![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=plastic&logo=alibabacloud&logoColor=white) 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) 
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=plastic&logo=microsoftazure&logoColor=white) 
