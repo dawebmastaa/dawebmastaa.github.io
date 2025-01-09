@@ -9,40 +9,40 @@ I am NOT a developer. I am a consultant and problem solver for small business ow
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 <p>
-  <h3>Front End</h3>
-  <h4>Languages</h4>
+  <h2>Front End</h2>
+  <h3>Languages</h3>
   <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,md" />
   </a>
 
-  <h4>Frameworks and Libraries</h4>
+  <h3>Frameworks and Libraries</h3>
   <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=astro,alpinejs,bootstrap,ember,electron,express,less,lit,htmx,nextjs,nuxtjs,pinia,react,redux,sass,svelte,tailwind,vue&perline=10" />
   </a>
 
-  <h4>Tools</h4>
+  <h3>Tools</h3>
   <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=bitbucket,cloudflare,figma,git,github,gitlab,nodejs,npm,pnpm,vite" />
   </a>
 </p>
 
 <p>
-  <h3>Back End</h3>
-  <h4>Languages</h4>
+  <h2>Back End</h2>
+  <h3>Languages</h3>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=php,py,perl,js,ts,graphql,sql," /></a>
 
-  <h4>Frameworks and Libraries</h4>
+  <h3>Frameworks and Libraries</h3>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=django,flask,laravel,nestjs,nuxtjs,remix,symfony" /></a>
 
-  <h4>Tools</h4>
+  <h43>Tools</h3>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=bun,deno,nginx,nodejs,prisma" /></a>
 
-  <h4>Databases</h4>
+  <h3>Databases</h3>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=sqlite,mysql,postgres,mongodb,supabase,firebase,planetscale,redis," /></a>
 </p>
 
 <p>
-  <h3>Deployment</h3>
+  <h2>Deployment</h2>
 
 ![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=plastic&logo=alibabacloud&logoColor=white) 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) 
@@ -122,7 +122,7 @@ Infrastructure:
 ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) 
 ![Vultr](https://img.shields.io/badge/Vultr-007BFC.svg?style=plastic&logo=vultr)
- 
+
 ![AdonisJS](https://img.shields.io/badge/adonisjs-%23220052.svg?style=plastic&logo=adonisjs&logoColor=white) 
 ![Alpine.js](https://img.shields.io/badge/alpinejs-white.svg?style=plastic&logo=alpinedotjs&logoColor=%238BC0D0) 
 ![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=plastic&logo=astro&logoColor=white) 
