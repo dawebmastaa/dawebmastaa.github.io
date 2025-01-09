@@ -68,7 +68,7 @@ All things modern web. Distilling the noise to find the tools to more easily cre
 
 ## 🏆GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=Dawebmastaa&theme=dracula&no-frame=false&no-bg=false&margin-w=4)
-![](https://github-profile-trophy.vercel.app/?username=dawebmastaa&theme=github_dark&no-frame=false&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=Dawebmastaa&theme=darkhub&no-frame=false&no-bg=false&margin-w=4)
 
 ### ✍️Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
