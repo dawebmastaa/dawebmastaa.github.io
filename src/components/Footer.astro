@@ -1,5 +1,6 @@
 ---
-const currentPath = Astro.props;
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
 ---
 <footer class="bg-white dark:bg-gray-800">
     <div class="max-w-screen-xl p-4 py-6 mx-auto md:p-8 lg:p-10">
@@ -38,7 +39,7 @@ const currentPath = Astro.props;
     </div>
 </footer>
 <script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
-<script>
+<script is:inline>
     try {
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark')
@@ -48,7 +49,7 @@ const currentPath = Astro.props;
       }
     } catch (_) {}
 </script>
-<script>
+<script is:inline>
     var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
     var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
     
@@ -94,21 +95,19 @@ const currentPath = Astro.props;
     });
 </script>
 
-<script type="text/javascript">
+<script is:inline>
 //chat script from Crisp
 window.$crisp=[];window.CRISP_WEBSITE_ID="3633cb81-a6ff-4196-ae9e-bdf36a8046ce";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
 </script>
 
 {
-currentPath === "contact/" ? 
-`
+currentPath === "contact/" && (
 <!-- Cal element-click embed code begins -->
-<script type="text/javascript">
+<script is:inline>
   (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
 Cal("init", "free", {origin:"https://app.cal.com"});
   Cal.ns.free("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#7B1FA2"}},"hideEventTypeDetails":false,"layout":"month_view"});
   </script>
   <!-- Cal element-click embed code ends -->
-`
-: ""
+)
 }
