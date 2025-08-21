@@ -3,7 +3,6 @@ module.exports = {
 	darkMode: 'class',
 	content: [
     './src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}',
-    "./node_modules/flowbite/**/*.js",
   ],
 	theme: {
     extend: {
@@ -21,11 +20,23 @@ module.exports = {
           '800': '#5b166e',
           '900': '#340940',
           '950': '#200429',
+        },
+        'lilac-bush': {
+          '50': '#f2effd',
+          '100': '#e4dcfb',
+          '200': '#cebff8',
+          '300': '#bca4f5',
+          '400': '#ab8bf2',
+          '500': '#9c72ef',
+          '600': '#894dea',
+          '700': '#6f2acb',
+          '800': '#4c1a8f',
+          '900': '#2a0b53',
+          '950': '#180535',
         }
       }
     },
   },
 	plugins: [
-    require('flowbite/plugin')
   ],
 }
