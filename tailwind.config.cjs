@@ -33,6 +33,19 @@ module.exports = {
           '800': '#4c1a8f',
           '900': '#2a0b53',
           '950': '#180535',
+        },
+        'electric-violet': {
+          50: 'hsl(var(--electric-violet-50) / <alpha-value>)',
+          100: 'hsl(var(--electric-violet-100) / <alpha-value>)',
+          200: 'hsl(var(--electric-violet-200) / <alpha-value>)',
+          300: 'hsl(var(--electric-violet-300) / <alpha-value>)',
+          400: 'hsl(var(--electric-violet-400) / <alpha-value>)',
+          500: 'hsl(var(--electric-violet-500) / <alpha-value>)',
+          600: 'hsl(var(--electric-violet-600) / <alpha-value>)',
+          700: 'hsl(var(--electric-violet-700) / <alpha-value>)',
+          800: 'hsl(var(--electric-violet-800) / <alpha-value>)',
+          900: 'hsl(var(--electric-violet-900) / <alpha-value>)',
+          950: 'hsl(var(--electric-violet-950) / <alpha-value>)',
         }
       }
     },
